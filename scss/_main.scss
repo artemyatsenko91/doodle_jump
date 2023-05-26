@@ -1,0 +1,59 @@
+body {
+    margin: 0;
+    height: 100vh;
+    font-family: 'Roboto', sans-serif, 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.app {
+    height: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.game {
+    width: 100%;
+    height: 100%;
+    background-color: lightblue;
+    position: relative;
+    overflow: hidden;
+}
+
+.doodle {
+    width: 70px;
+    height: 100px;
+    position: relative;
+    z-index: 1;
+}
+
+.doodle-img {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+}
+
+.platform {
+    width: 110px;
+    height: 30px;
+    background-image: url('../images/platform.png');
+    background-size: 110px 30px;
+    position: absolute;
+}
+
+body .hide {
+    display: none;
+}
+
+.score {
+    position: absolute;
+    width: 100px;
+    height: 30px;
+    background-color: #fff;
+    z-index: 100;
+    top: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 20px;
+}
