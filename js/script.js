@@ -11,7 +11,7 @@ const doodleWidth = 70;
 const doodleHeight = 100;
 const platformWidth = 110;
 const platformHeight = 30;
-const gravity = 0.5;
+const gravity = 0.1;
 
 let platformGap = 0;
 let platformCoords = [];
